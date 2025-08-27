@@ -1,8 +1,46 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+  background(150,200,150);
+  size(1000, 1000);
 }
 void draw(){
-  //more of your code here
-}
-
+  strokeWeight(5);
+  fill(255, 140, 0);
+  ellipse(730, 220, 250, 250);
+  ellipse(280, 220, 250, 250);
+  fill(0,0,0);
+  ellipse(730, 220, 150, 150);
+  ellipse(280, 220, 150, 150);
+  fill(255, 140, 0);
+  ellipse(500, 500, 700, 650);
+  fill(255, 255, 255);
+  arc(500, 500, 700, 650, PI/4, 3*PI/4);
+  fill(0, 0, 0);
+  arc(500, 580, 270, 210, 0, 2*PI/2);
+  fill(255, 140, 0);
+  noStroke();
+  rect(400, 380, 200, 200);
+  stroke(0,0,0);
+  line(630, 690, 900, 650);
+  line(630, 730, 900, 720);
+  line(630, 770, 900, 790);
+  line(380, 690, 130, 650);
+  line(380, 730, 130, 720);
+  line(380, 770, 130, 790);
+  line(365, 580, 455, 180);
+  line(635, 580, 545, 180);
+  noFill();
+  strokeWeight(8);
+  arc(310, 400, 80, 50, 0, PI);
+  arc(690, 400, 80, 50, 0, PI);
+  arc(500, 730, 100, 50, 0, PI);
+  strokeWeight(2);
+  fill(0,0,0);
+  triangle(850, 520, 820, 500, 850, 480);
+  triangle(150, 520, 180, 500, 150, 480);
+  triangle(850, 480, 780, 460, 845, 440);
+  triangle(150, 480, 220, 460, 155, 440);
+  
+  System.out.println(mouseX);
+  System.out.println(mouseY);
+  }
