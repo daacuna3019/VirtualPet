@@ -40,7 +40,4 @@ void draw(){
   triangle(150, 520, 180, 500, 150, 480);
   triangle(850, 480, 780, 460, 845, 440);
   triangle(150, 480, 220, 460, 155, 440);
-  
-  System.out.println(mouseX);
-  System.out.println(mouseY);
   }
